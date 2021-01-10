@@ -29,6 +29,9 @@ class DcgsPythonHelpers:
                 required=False
             )
 
+        return parser.parse_args()
+        
+
     def __get_command_alias_pairs_from_all_args(self, args) -> list:
 
         if len(args) % 2 != 0:
