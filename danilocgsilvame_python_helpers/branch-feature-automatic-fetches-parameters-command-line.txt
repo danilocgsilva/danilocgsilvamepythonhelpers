@@ -1,0 +1,1 @@
+Allow setting parameters in command line in a simple way
